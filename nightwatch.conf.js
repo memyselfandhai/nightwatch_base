@@ -8,12 +8,7 @@ module.exports = {
   selenium: {
     start_process: true,
     server_path: serverPath,
-    port: 4444,
-    cli_args: {
-      'webdriver.chrome.driver': '',
-      'webdriver.gecko.driver': '',
-      'webdriver.edge.driver': ''
-    }
+    port: 4444
   },
 
   test_settings: {
@@ -23,12 +18,8 @@ module.exports = {
       selenium_host: 'localhost',
       silent: true,
       screenshots: {
-        enabled: false,
-        path: ''
-      },
-      desiredCapabilities: {
-        browserName: 'firefox',
-        marionette: true
+        enabled: true,
+        path: 'screenshots'
       }
     },
 
