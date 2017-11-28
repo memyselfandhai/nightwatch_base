@@ -1,0 +1,10 @@
+Before going forward, make sure you are logged out of VCS website. Your task is to write an e2e test using Nightwatch that does the following:
+
+
+
+
+Clicks the user picture in the top right corner and logs out
+Takes a final screenshot
+There should be only one test written in the test.js file under tests directory.
+
+Happy coding!

@@ -19,6 +19,7 @@
   "homepage": "https://github.com/vikingeducation/nightwatch_base#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
     "express": "^4.15.3",
     "express-handlebars": "^3.0.0",
     "nightwatch": "^0.9.16"
